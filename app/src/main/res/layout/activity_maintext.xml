@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redister">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/首页"
+        android:text="首页"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:textSize="45sp" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/登录"
+        android:text="登录"
+        android:textColor="@color/cheng"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="220dp"
+        android:id="@+id/注册"
+        android:text="注册"
+        android:textColor="@color/cheng"
+        android:textSize="25sp"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="500dp"
+        android:text="本程序由森氏集团开发"
+        android:gravity="right"/>
+
+</RelativeLayout>

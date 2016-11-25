@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redister">
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@color/huise"
+        android:layout_below="@+id/zhuce"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:text="昵称"
+        android:id="@+id/nicheng"
+        android:gravity="left|center"
+        android:textColor="#11db11"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="170dp"
+        android:background="@color/huise"
+        android:layout_height="30dp" />
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="22dp"
+        android:id="@+id/NiEdit"
+        android:background="@color/huise"
+        android:hint="请输入昵称" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/line"
+        android:id="@+id/line" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="325dp"
+        android:background="@color/line"/>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="注册"
+        android:textColor="#17e830"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/whrit"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/zhuce"
+        android:text="注册"
+        android:textColor="#0eb50e"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:background="@color/huise"
+        android:id="@+id/editText"
+        android:layout_below="@+id/NiEdit"
+        android:layout_alignLeft="@+id/NiEdit"
+        android:layout_alignStart="@+id/NiEdit" />
+
+</RelativeLayout>
